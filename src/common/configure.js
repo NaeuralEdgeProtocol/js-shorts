@@ -3,7 +3,7 @@ import * as naeural from '@naeural/jsclient';
 
 dotenv.config();
 
-export const makeConfig = (fleet, initiator = 'js-sdk', stateManager = naeural.REDIS_STATE_MANAGER) => {
+export const makeConfig = (fleet, initiator = 'js-sdk', stateManager = naeural.INTERNAL_STATE_MANAGER) => {
     return  {
         initiator: initiator,
         mqttOptions: {
