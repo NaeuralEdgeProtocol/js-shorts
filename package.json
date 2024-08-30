@@ -7,7 +7,7 @@
   "author": "Naeural Team",
   "license": "MIT",
   "dependencies": {
-    "@naeural/jsclient": "^3.1.0",
+    "@naeural/jsclient": "^3.1.1",
     "dotenv": "^16.4.5"
   }
 }
