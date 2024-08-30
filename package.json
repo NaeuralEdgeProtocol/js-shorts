@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
+  "scripts": {
+    "gen-identity": "naeural generate"
+  },
   "keywords": [],
   "author": "Naeural Team",
   "license": "MIT",
